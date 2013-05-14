@@ -24,8 +24,8 @@
 		3C94096717425070008DF206 /* PlayedWordsByUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096617425070008DF206 /* PlayedWordsByUsers.m */; };
 		3C94096A17425089008DF206 /* SkippedWordsByUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096917425089008DF206 /* SkippedWordsByUsers.m */; };
 		3C94096D174250B5008DF206 /* Packs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096C174250B5008DF206 /* Packs.m */; };
-		3C940970174250CB008DF206 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096F174250CB008DF206 /* Group.m */; };
 		3C940973174250E3008DF206 /* Words.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C940972174250E3008DF206 /* Words.m */; };
+		3C940976174251D9008DF206 /* Groups.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C940975174251D9008DF206 /* Groups.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,10 +59,10 @@
 		3C94096917425089008DF206 /* SkippedWordsByUsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkippedWordsByUsers.m; sourceTree = "<group>"; };
 		3C94096B174250B5008DF206 /* Packs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Packs.h; sourceTree = "<group>"; };
 		3C94096C174250B5008DF206 /* Packs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Packs.m; sourceTree = "<group>"; };
-		3C94096E174250CB008DF206 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
-		3C94096F174250CB008DF206 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
 		3C940971174250E3008DF206 /* Words.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Words.h; sourceTree = "<group>"; };
 		3C940972174250E3008DF206 /* Words.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Words.m; sourceTree = "<group>"; };
+		3C940974174251D8008DF206 /* Groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Groups.h; sourceTree = "<group>"; };
+		3C940975174251D9008DF206 /* Groups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Groups.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,10 +159,10 @@
 				3C94096917425089008DF206 /* SkippedWordsByUsers.m */,
 				3C94096B174250B5008DF206 /* Packs.h */,
 				3C94096C174250B5008DF206 /* Packs.m */,
-				3C94096E174250CB008DF206 /* Group.h */,
-				3C94096F174250CB008DF206 /* Group.m */,
 				3C940971174250E3008DF206 /* Words.h */,
 				3C940972174250E3008DF206 /* Words.m */,
+				3C940974174251D8008DF206 /* Groups.h */,
+				3C940975174251D9008DF206 /* Groups.m */,
 			);
 			name = "Model Classes";
 			sourceTree = "<group>";
@@ -242,8 +242,8 @@
 				3C94096717425070008DF206 /* PlayedWordsByUsers.m in Sources */,
 				3C94096A17425089008DF206 /* SkippedWordsByUsers.m in Sources */,
 				3C94096D174250B5008DF206 /* Packs.m in Sources */,
-				3C940970174250CB008DF206 /* Group.m in Sources */,
 				3C940973174250E3008DF206 /* Words.m in Sources */,
+				3C940976174251D9008DF206 /* Groups.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

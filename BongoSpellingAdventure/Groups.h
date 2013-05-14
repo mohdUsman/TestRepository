@@ -1,5 +1,5 @@
 //
-//  Group.h
+//  Groups.h
 //  BongoSpellingAdventure
 //
 //  Created by Muhammad Usman on 5/14/13.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Group : NSObject
+@interface Groups : NSObject
 
 @end
