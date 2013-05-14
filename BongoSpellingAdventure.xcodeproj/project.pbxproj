@@ -16,6 +16,16 @@
 		3C940943174211FE008DF206 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C940942174211FE008DF206 /* Default.png */; };
 		3C940945174211FE008DF206 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C940944174211FE008DF206 /* Default@2x.png */; };
 		3C940947174211FE008DF206 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C940946174211FE008DF206 /* Default-568h@2x.png */; };
+		3C940950174214E0008DF206 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94094F174214E0008DF206 /* DatabaseManager.m */; };
+		3C940953174215BF008DF206 /* PlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C940952174215BF008DF206 /* PlistManager.m */; };
+		3C9409561742187A008DF206 /* SharedResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9409551742187A008DF206 /* SharedResources.m */; };
+		3C94095B17424F6E008DF206 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94095A17424F6E008DF206 /* Users.m */; };
+		3C94096417425021008DF206 /* AssignedGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096317425021008DF206 /* AssignedGroups.m */; };
+		3C94096717425070008DF206 /* PlayedWordsByUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096617425070008DF206 /* PlayedWordsByUsers.m */; };
+		3C94096A17425089008DF206 /* SkippedWordsByUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096917425089008DF206 /* SkippedWordsByUsers.m */; };
+		3C94096D174250B5008DF206 /* Packs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096C174250B5008DF206 /* Packs.m */; };
+		3C940970174250CB008DF206 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096F174250CB008DF206 /* Group.m */; };
+		3C940973174250E3008DF206 /* Words.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C940972174250E3008DF206 /* Words.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,27 @@
 		3C940942174211FE008DF206 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3C940944174211FE008DF206 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3C940946174211FE008DF206 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3C94094E174214E0008DF206 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		3C94094F174214E0008DF206 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		3C940951174215BF008DF206 /* PlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistManager.h; sourceTree = "<group>"; };
+		3C940952174215BF008DF206 /* PlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistManager.m; sourceTree = "<group>"; };
+		3C9409541742187A008DF206 /* SharedResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedResources.h; sourceTree = "<group>"; };
+		3C9409551742187A008DF206 /* SharedResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedResources.m; sourceTree = "<group>"; };
+		3C94095717421970008DF206 /* PlistParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlistParser.h; sourceTree = "<group>"; };
+		3C94095917424F6E008DF206 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		3C94095A17424F6E008DF206 /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		3C94096217425021008DF206 /* AssignedGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignedGroups.h; sourceTree = "<group>"; };
+		3C94096317425021008DF206 /* AssignedGroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignedGroups.m; sourceTree = "<group>"; };
+		3C94096517425070008DF206 /* PlayedWordsByUsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayedWordsByUsers.h; sourceTree = "<group>"; };
+		3C94096617425070008DF206 /* PlayedWordsByUsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayedWordsByUsers.m; sourceTree = "<group>"; };
+		3C94096817425089008DF206 /* SkippedWordsByUsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkippedWordsByUsers.h; sourceTree = "<group>"; };
+		3C94096917425089008DF206 /* SkippedWordsByUsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkippedWordsByUsers.m; sourceTree = "<group>"; };
+		3C94096B174250B5008DF206 /* Packs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Packs.h; sourceTree = "<group>"; };
+		3C94096C174250B5008DF206 /* Packs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Packs.m; sourceTree = "<group>"; };
+		3C94096E174250CB008DF206 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		3C94096F174250CB008DF206 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		3C940971174250E3008DF206 /* Words.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Words.h; sourceTree = "<group>"; };
+		3C940972174250E3008DF206 /* Words.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Words.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +109,12 @@
 		3C940936174211FE008DF206 /* BongoSpellingAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				3C94095817424F55008DF206 /* Model Classes */,
 				3C94093F174211FE008DF206 /* AppDelegate.h */,
 				3C940940174211FE008DF206 /* AppDelegate.m */,
+				3C9409541742187A008DF206 /* SharedResources.h */,
+				3C9409551742187A008DF206 /* SharedResources.m */,
+				3C94094D174214B1008DF206 /* Database And Plist */,
 				3C940937174211FE008DF206 /* Supporting Files */,
 			);
 			path = BongoSpellingAdventure;
@@ -97,6 +132,39 @@
 				3C940946174211FE008DF206 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C94094D174214B1008DF206 /* Database And Plist */ = {
+			isa = PBXGroup;
+			children = (
+				3C94094E174214E0008DF206 /* DatabaseManager.h */,
+				3C94094F174214E0008DF206 /* DatabaseManager.m */,
+				3C940951174215BF008DF206 /* PlistManager.h */,
+				3C940952174215BF008DF206 /* PlistManager.m */,
+				3C94095717421970008DF206 /* PlistParser.h */,
+			);
+			name = "Database And Plist";
+			sourceTree = "<group>";
+		};
+		3C94095817424F55008DF206 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3C94095917424F6E008DF206 /* Users.h */,
+				3C94095A17424F6E008DF206 /* Users.m */,
+				3C94096217425021008DF206 /* AssignedGroups.h */,
+				3C94096317425021008DF206 /* AssignedGroups.m */,
+				3C94096517425070008DF206 /* PlayedWordsByUsers.h */,
+				3C94096617425070008DF206 /* PlayedWordsByUsers.m */,
+				3C94096817425089008DF206 /* SkippedWordsByUsers.h */,
+				3C94096917425089008DF206 /* SkippedWordsByUsers.m */,
+				3C94096B174250B5008DF206 /* Packs.h */,
+				3C94096C174250B5008DF206 /* Packs.m */,
+				3C94096E174250CB008DF206 /* Group.h */,
+				3C94096F174250CB008DF206 /* Group.m */,
+				3C940971174250E3008DF206 /* Words.h */,
+				3C940972174250E3008DF206 /* Words.m */,
+			);
+			name = "Model Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +234,16 @@
 			files = (
 				3C94093D174211FE008DF206 /* main.m in Sources */,
 				3C940941174211FE008DF206 /* AppDelegate.m in Sources */,
+				3C940950174214E0008DF206 /* DatabaseManager.m in Sources */,
+				3C940953174215BF008DF206 /* PlistManager.m in Sources */,
+				3C9409561742187A008DF206 /* SharedResources.m in Sources */,
+				3C94095B17424F6E008DF206 /* Users.m in Sources */,
+				3C94096417425021008DF206 /* AssignedGroups.m in Sources */,
+				3C94096717425070008DF206 /* PlayedWordsByUsers.m in Sources */,
+				3C94096A17425089008DF206 /* SkippedWordsByUsers.m in Sources */,
+				3C94096D174250B5008DF206 /* Packs.m in Sources */,
+				3C940970174250CB008DF206 /* Group.m in Sources */,
+				3C940973174250E3008DF206 /* Words.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +319,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BongoSpellingAdventure/BongoSpellingAdventure-Prefix.pch";
 				INFOPLIST_FILE = "BongoSpellingAdventure/BongoSpellingAdventure-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -252,6 +331,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BongoSpellingAdventure/BongoSpellingAdventure-Prefix.pch";
 				INFOPLIST_FILE = "BongoSpellingAdventure/BongoSpellingAdventure-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
