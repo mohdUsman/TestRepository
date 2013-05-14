@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Groups : NSObject
+{
+    
+}
 
 @end
