@@ -10,7 +10,6 @@
 
 @interface Groups : NSObject
 {
-    
 }
 
 @end
