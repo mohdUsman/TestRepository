@@ -9,5 +9,5 @@
 #import "Groups.h"
 
 @implementation Groups
-
+@synthesize packName;
 @end

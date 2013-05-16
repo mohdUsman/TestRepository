@@ -10,6 +10,10 @@
 
 @interface Groups : NSObject
 {
+    int groupId;
+    int gPackId;
+    NSString *packName;
+    
 }
-
+@property(nonatomic , strong)NSString *packName;
 @end

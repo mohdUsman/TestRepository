@@ -10,4 +10,6 @@
 
 @interface SharedResources : NSObject
 
++(SharedResources*) getSharedResource;
+-(id)init;
 @end

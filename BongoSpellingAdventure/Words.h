@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Words : NSObject
-
+{
+    int wordsId;
+    int wGroupId;
+    NSString *words;
+}
+@property(nonatomic , strong) NSString *words;
 @end

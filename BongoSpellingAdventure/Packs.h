@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Packs : NSObject
-
+{
+    int packId;
+    NSString *packName;
+}
+@property(nonatomic , strong)NSString *packName;
 @end

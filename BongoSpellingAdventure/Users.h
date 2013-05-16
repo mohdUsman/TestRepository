@@ -9,5 +9,14 @@
 #import <Foundation/Foundation.h>
 
 @interface Users : NSObject
+{
+    int user_id;
+    NSString *userName;
+    int grade;
+    int age;
+    NSString *score;
+}
 
+@property(nonatomic , strong)NSString *userName;
+@property(nonatomic , strong)NSString *score;
 @end

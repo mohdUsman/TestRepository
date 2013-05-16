@@ -9,5 +9,5 @@
 #import "Users.h"
 
 @implementation Users
-
+@synthesize userName, score;
 @end

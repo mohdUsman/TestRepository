@@ -9,5 +9,5 @@
 #import "Words.h"
 
 @implementation Words
-
+@synthesize words;
 @end

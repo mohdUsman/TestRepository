@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface AssignedGroups : NSObject
-
+{
+    int agUserId;
+    int agPackId;
+    int agGroupId;
+}
 @end

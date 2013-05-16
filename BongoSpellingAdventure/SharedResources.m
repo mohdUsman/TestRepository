@@ -8,6 +8,27 @@
 
 #import "SharedResources.h"
 
+static SharedResources* sharedResource;
 @implementation SharedResources
++ (SharedResources*) getSharedResource {
+    
+    @synchronized(self)
+	{
+        if (sharedResource == nil)
+		{
+            sharedResource=[[self alloc] init];
+            
+		}
+        
+        return sharedResource;
+    }
+}
 
+-(id)init {
+    
+    if (self = [super init]) {
+        
+    }
+    return self;
+}
 @end

@@ -9,5 +9,5 @@
 #import "Packs.h"
 
 @implementation Packs
-
+@synthesize packName;
 @end

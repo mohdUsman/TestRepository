@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface SkippedWordsByUsers : NSObject
-
+{
+    int swUserId;
+    int swGroupId;
+    int swWordId; //Id of last skipped word
+}
 @end

@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface PlayedWordsByUsers : NSObject
-
+{
+    int pwUserId;
+    int pwGroupId;
+    int pwWordId; //Last Played
+}
 @end
