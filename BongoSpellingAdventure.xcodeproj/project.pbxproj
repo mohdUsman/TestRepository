@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C34FAC61744F4F400FE657E /* PlistParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34FAC51744F4F400FE657E /* PlistParser.m */; };
 		3C940931174211FE008DF206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C940930174211FE008DF206 /* UIKit.framework */; };
 		3C940933174211FE008DF206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C940932174211FE008DF206 /* Foundation.framework */; };
 		3C940935174211FE008DF206 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C940934174211FE008DF206 /* CoreGraphics.framework */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C34FAC41744F4F400FE657E /* PlistParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistParser.h; sourceTree = "<group>"; };
+		3C34FAC51744F4F400FE657E /* PlistParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistParser.m; sourceTree = "<group>"; };
 		3C94092C174211FE008DF206 /* BongoSpellingAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BongoSpellingAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C940930174211FE008DF206 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3C940932174211FE008DF206 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,7 +51,6 @@
 		3C940952174215BF008DF206 /* PlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistManager.m; sourceTree = "<group>"; };
 		3C9409541742187A008DF206 /* SharedResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedResources.h; sourceTree = "<group>"; };
 		3C9409551742187A008DF206 /* SharedResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedResources.m; sourceTree = "<group>"; };
-		3C94095717421970008DF206 /* PlistParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlistParser.h; sourceTree = "<group>"; };
 		3C94095917424F6E008DF206 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
 		3C94095A17424F6E008DF206 /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
 		3C94096217425021008DF206 /* AssignedGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignedGroups.h; sourceTree = "<group>"; };
@@ -141,7 +143,8 @@
 				3C94094F174214E0008DF206 /* DatabaseManager.m */,
 				3C940951174215BF008DF206 /* PlistManager.h */,
 				3C940952174215BF008DF206 /* PlistManager.m */,
-				3C94095717421970008DF206 /* PlistParser.h */,
+				3C34FAC41744F4F400FE657E /* PlistParser.h */,
+				3C34FAC51744F4F400FE657E /* PlistParser.m */,
 			);
 			name = "Database And Plist";
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				3C94096D174250B5008DF206 /* Packs.m in Sources */,
 				3C940973174250E3008DF206 /* Words.m in Sources */,
 				3C940976174251D9008DF206 /* Groups.m in Sources */,
+				3C34FAC61744F4F400FE657E /* PlistParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +360,7 @@
 				3C94094C174211FE008DF206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,13 @@
 //
-//  PlistParser.h
+//  PlistParser.m
 //  BongoSpellingAdventure
 //
 //  Created by Muhammad Usman on 5/16/13.
 //  Copyright (c) 2013 Muhammad Usman. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "PlistParser.h"
 
-@interface PlistParser : NSObject
+@implementation PlistParser
 
 @end
