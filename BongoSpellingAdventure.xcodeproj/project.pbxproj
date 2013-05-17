@@ -22,13 +22,14 @@
 		3C940950174214E0008DF206 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94094F174214E0008DF206 /* DatabaseManager.m */; };
 		3C940953174215BF008DF206 /* PlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C940952174215BF008DF206 /* PlistManager.m */; };
 		3C9409561742187A008DF206 /* SharedResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9409551742187A008DF206 /* SharedResources.m */; };
-		3C94095B17424F6E008DF206 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94095A17424F6E008DF206 /* Users.m */; };
+		3C94095B17424F6E008DF206 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94095A17424F6E008DF206 /* User.m */; };
 		3C94096417425021008DF206 /* AssignedGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096317425021008DF206 /* AssignedGroups.m */; };
 		3C94096717425070008DF206 /* PlayedWordsByUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096617425070008DF206 /* PlayedWordsByUsers.m */; };
 		3C94096A17425089008DF206 /* SkippedWordsByUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096917425089008DF206 /* SkippedWordsByUsers.m */; };
 		3C94096D174250B5008DF206 /* Packs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C94096C174250B5008DF206 /* Packs.m */; };
 		3C940973174250E3008DF206 /* Words.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C940972174250E3008DF206 /* Words.m */; };
 		3C940976174251D9008DF206 /* Groups.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C940975174251D9008DF206 /* Groups.m */; };
+		8E49181317463A3C009806EF /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E49181217463A3C009806EF /* Settings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,8 +57,8 @@
 		3C940952174215BF008DF206 /* PlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistManager.m; sourceTree = "<group>"; };
 		3C9409541742187A008DF206 /* SharedResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedResources.h; sourceTree = "<group>"; };
 		3C9409551742187A008DF206 /* SharedResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedResources.m; sourceTree = "<group>"; };
-		3C94095917424F6E008DF206 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
-		3C94095A17424F6E008DF206 /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		3C94095917424F6E008DF206 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		3C94095A17424F6E008DF206 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		3C94096217425021008DF206 /* AssignedGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignedGroups.h; sourceTree = "<group>"; };
 		3C94096317425021008DF206 /* AssignedGroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignedGroups.m; sourceTree = "<group>"; };
 		3C94096517425070008DF206 /* PlayedWordsByUsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayedWordsByUsers.h; sourceTree = "<group>"; };
@@ -70,6 +71,8 @@
 		3C940972174250E3008DF206 /* Words.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Words.m; sourceTree = "<group>"; };
 		3C940974174251D8008DF206 /* Groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Groups.h; sourceTree = "<group>"; };
 		3C940975174251D9008DF206 /* Groups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Groups.m; sourceTree = "<group>"; };
+		8E49181117463A3C009806EF /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		8E49181217463A3C009806EF /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +93,6 @@
 		3C940921174211FE008DF206 = {
 			isa = PBXGroup;
 			children = (
-				3C34FAE317460FD000FE657E /* libsqlite3.0.dylib */,
 				3C940936174211FE008DF206 /* BongoSpellingAdventure */,
 				3C94092F174211FE008DF206 /* Frameworks */,
 				3C94092D174211FE008DF206 /* Products */,
@@ -118,15 +120,12 @@
 		3C940936174211FE008DF206 /* BongoSpellingAdventure */ = {
 			isa = PBXGroup;
 			children = (
-				3C94095817424F55008DF206 /* Model Classes */,
 				3C94093F174211FE008DF206 /* AppDelegate.h */,
 				3C940940174211FE008DF206 /* AppDelegate.m */,
-				3C9409541742187A008DF206 /* SharedResources.h */,
-				3C9409551742187A008DF206 /* SharedResources.m */,
-				3C94094D174214B1008DF206 /* Database And Plist */,
+				8E49180F17461E32009806EF /* Views and Controllers */,
+				3C94095817424F55008DF206 /* Model Classes */,
+				3C94094D174214B1008DF206 /* Resource Managers */,
 				3C940937174211FE008DF206 /* Supporting Files */,
-				3C34FAE9174612FD00FE657E /* MainScreen.h */,
-				3C34FAEA174612FD00FE657E /* MainScreen.m */,
 			);
 			path = BongoSpellingAdventure;
 			sourceTree = "<group>";
@@ -134,6 +133,7 @@
 		3C940937174211FE008DF206 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3C34FAE317460FD000FE657E /* libsqlite3.0.dylib */,
 				3C940938174211FE008DF206 /* BongoSpellingAdventure-Info.plist */,
 				3C940939174211FE008DF206 /* InfoPlist.strings */,
 				3C94093C174211FE008DF206 /* main.m */,
@@ -145,9 +145,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3C94094D174214B1008DF206 /* Database And Plist */ = {
+		3C94094D174214B1008DF206 /* Resource Managers */ = {
 			isa = PBXGroup;
 			children = (
+				3C9409541742187A008DF206 /* SharedResources.h */,
+				3C9409551742187A008DF206 /* SharedResources.m */,
 				3C94094E174214E0008DF206 /* DatabaseManager.h */,
 				3C94094F174214E0008DF206 /* DatabaseManager.m */,
 				3C940951174215BF008DF206 /* PlistManager.h */,
@@ -155,14 +157,14 @@
 				3C34FAC41744F4F400FE657E /* PlistParser.h */,
 				3C34FAC51744F4F400FE657E /* PlistParser.m */,
 			);
-			name = "Database And Plist";
+			name = "Resource Managers";
 			sourceTree = "<group>";
 		};
 		3C94095817424F55008DF206 /* Model Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3C94095917424F6E008DF206 /* Users.h */,
-				3C94095A17424F6E008DF206 /* Users.m */,
+				3C94095917424F6E008DF206 /* User.h */,
+				3C94095A17424F6E008DF206 /* User.m */,
 				3C94096217425021008DF206 /* AssignedGroups.h */,
 				3C94096317425021008DF206 /* AssignedGroups.m */,
 				3C94096517425070008DF206 /* PlayedWordsByUsers.h */,
@@ -175,8 +177,19 @@
 				3C940972174250E3008DF206 /* Words.m */,
 				3C940974174251D8008DF206 /* Groups.h */,
 				3C940975174251D9008DF206 /* Groups.m */,
+				8E49181117463A3C009806EF /* Settings.h */,
+				8E49181217463A3C009806EF /* Settings.m */,
 			);
 			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		8E49180F17461E32009806EF /* Views and Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C34FAE9174612FD00FE657E /* MainScreen.h */,
+				3C34FAEA174612FD00FE657E /* MainScreen.m */,
+			);
+			name = "Views and Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +219,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = "Muhammad Usman";
+				ORGANIZATIONNAME = TalismaWorks;
 			};
 			buildConfigurationList = 3C940926174211FE008DF206 /* Build configuration list for PBXProject "BongoSpellingAdventure" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -249,7 +262,7 @@
 				3C940950174214E0008DF206 /* DatabaseManager.m in Sources */,
 				3C940953174215BF008DF206 /* PlistManager.m in Sources */,
 				3C9409561742187A008DF206 /* SharedResources.m in Sources */,
-				3C94095B17424F6E008DF206 /* Users.m in Sources */,
+				3C94095B17424F6E008DF206 /* User.m in Sources */,
 				3C94096417425021008DF206 /* AssignedGroups.m in Sources */,
 				3C94096717425070008DF206 /* PlayedWordsByUsers.m in Sources */,
 				3C94096A17425089008DF206 /* SkippedWordsByUsers.m in Sources */,
@@ -258,6 +271,7 @@
 				3C940976174251D9008DF206 /* Groups.m in Sources */,
 				3C34FAC61744F4F400FE657E /* PlistParser.m in Sources */,
 				3C34FAEB174612FE00FE657E /* MainScreen.m in Sources */,
+				8E49181317463A3C009806EF /* Settings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
