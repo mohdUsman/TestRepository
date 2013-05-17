@@ -30,6 +30,7 @@
 		3C940973174250E3008DF206 /* Words.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C940972174250E3008DF206 /* Words.m */; };
 		3C940976174251D9008DF206 /* Groups.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C940975174251D9008DF206 /* Groups.m */; };
 		8E49181317463A3C009806EF /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E49181217463A3C009806EF /* Settings.m */; };
+		8E49181A1746462B009806EF /* MoreApps.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4918191746462B009806EF /* MoreApps.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,8 @@
 		3C940975174251D9008DF206 /* Groups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Groups.m; sourceTree = "<group>"; };
 		8E49181117463A3C009806EF /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
 		8E49181217463A3C009806EF /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		8E4918181746462B009806EF /* MoreApps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreApps.h; path = Classes/MoreApps.h; sourceTree = "<group>"; };
+		8E4918191746462B009806EF /* MoreApps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreApps.m; path = Classes/MoreApps.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 				8E49180F17461E32009806EF /* Views and Controllers */,
 				3C94095817424F55008DF206 /* Model Classes */,
 				3C94094D174214B1008DF206 /* Resource Managers */,
+				8E4918141746456C009806EF /* Resources */,
 				3C940937174211FE008DF206 /* Supporting Files */,
 			);
 			path = BongoSpellingAdventure;
@@ -179,6 +183,8 @@
 				3C940975174251D9008DF206 /* Groups.m */,
 				8E49181117463A3C009806EF /* Settings.h */,
 				8E49181217463A3C009806EF /* Settings.m */,
+				8E4918181746462B009806EF /* MoreApps.h */,
+				8E4918191746462B009806EF /* MoreApps.m */,
 			);
 			name = "Model Classes";
 			sourceTree = "<group>";
@@ -190,6 +196,37 @@
 				3C34FAEA174612FD00FE657E /* MainScreen.m */,
 			);
 			name = "Views and Controllers";
+			sourceTree = "<group>";
+		};
+		8E4918141746456C009806EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E4918151746456C009806EF /* Avatars */,
+				8E4918161746456C009806EF /* Images */,
+				8E4918171746456C009806EF /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8E4918151746456C009806EF /* Avatars */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Avatars;
+			sourceTree = "<group>";
+		};
+		8E4918161746456C009806EF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8E4918171746456C009806EF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +309,7 @@
 				3C34FAC61744F4F400FE657E /* PlistParser.m in Sources */,
 				3C34FAEB174612FE00FE657E /* MainScreen.m in Sources */,
 				8E49181317463A3C009806EF /* Settings.m in Sources */,
+				8E49181A1746462B009806EF /* MoreApps.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
