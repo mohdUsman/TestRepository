@@ -7,12 +7,26 @@
 //
 
 #import "AppDelegate.h"
+#import "MainScreen.h"
 
 @implementation AppDelegate
+@synthesize navigationController = _navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    MainScreen *mainView = [[MainScreen alloc] init];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:mainView];
+    self.navigationController.navigationBarHidden = YES;
+    self.navigationController.navigationBar.tintColor = [UIColor brownColor];
+    self.window.rootViewController = self.navigationController;
+    [self.window addSubview:self.navigationController.view];
+                                 
+    
+    
+    
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
