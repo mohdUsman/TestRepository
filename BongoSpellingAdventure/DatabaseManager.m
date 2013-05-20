@@ -3,7 +3,7 @@
 //  BongoSpellingAdventure
 //
 //  Created by Muhammad Usman on 5/14/13.
-//  Copyright (c) 2013 Muhammad Usman. All rights reserved.
+//  Copyright (c) 2013 TalismaWorks. All rights reserved.
 //
 /**
  * This class is to manage databases. Get data and to update data in databases.

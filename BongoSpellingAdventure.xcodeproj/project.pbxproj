@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -259,7 +259,7 @@
 				ORGANIZATIONNAME = TalismaWorks;
 			};
 			buildConfigurationList = 3C940926174211FE008DF206 /* Build configuration list for PBXProject "BongoSpellingAdventure" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (

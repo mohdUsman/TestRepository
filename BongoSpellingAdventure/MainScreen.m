@@ -3,7 +3,7 @@
 //  BongoSpellingAdventure
 //
 //  Created by Muhammad Usman on 5/17/13.
-//  Copyright (c) 2013 Muhammad Usman. All rights reserved.
+//  Copyright (c) 2013 TalismaWorks. All rights reserved.
 //
 
 #import "MainScreen.h"
@@ -27,11 +27,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    NSMutableArray *arr = [[NSMutableArray alloc]init];
-    
-    NSLog(@"Hello World");
-    arr = [[SharedResources getSharedResource] allUsers];
-    
 }
 
 - (void)didReceiveMemoryWarning
