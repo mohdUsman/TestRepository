@@ -8,6 +8,7 @@
 
 #import "SharedResources.h"
 #import "User.h"
+#import "DatabaseManager.h"
 
 static SharedResources* sharedResource;
 
@@ -47,6 +48,8 @@ static SharedResources* sharedResource;
 {
     if (!self.usersList) {
         // get from database
+        DatabaseManager *dbMan = [[DatabaseManager alloc]init];
+        usersList = [dbMan getUserDbDataArray];
     }
     
     // it can hold zero objects first time of no user is created

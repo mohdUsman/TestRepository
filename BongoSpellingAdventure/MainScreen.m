@@ -7,7 +7,7 @@
 //
 
 #import "MainScreen.h"
-#import "DatabaseManager.h"
+#import "SharedResources.h"
 @interface MainScreen ()
 
 @end
@@ -27,9 +27,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    NSMutableArray *arr = [[NSMutableArray alloc]init];
+    
     NSLog(@"Hello World");
-    DatabaseManager *db = [[DatabaseManager alloc]init];
-    [db createOrOpenDb];
+    arr = [[SharedResources getSharedResource] allUsers];
+    
 }
 
 - (void)didReceiveMemoryWarning

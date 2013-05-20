@@ -14,7 +14,7 @@
     NSString* userName;
     NSString* grade;
     int age;
-    NSString* score;
+    int score;
     NSString* avatar;
 }
 
@@ -22,7 +22,7 @@
 @property (nonatomic, strong) NSString* userName;
 @property (strong, nonatomic) NSString* grade;
 @property (nonatomic, assign) int age;
-@property (nonatomic, strong) NSString* score;
+@property (nonatomic, assign) int score;
 @property (nonatomic, strong) NSString* avatar;
 
 @end

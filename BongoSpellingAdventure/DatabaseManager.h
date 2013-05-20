@@ -20,6 +20,6 @@
 
 @property(strong , nonatomic)NSString *dbPathString;
 
-- (void)createOrOpenDb;
 
+-(NSMutableArray*)getUserDbDataArray;
 @end
