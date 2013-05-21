@@ -10,6 +10,11 @@
 		3C34FAC61744F4F400FE657E /* PlistParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34FAC51744F4F400FE657E /* PlistParser.m */; };
 		3C34FAE417460FD000FE657E /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34FAE317460FD000FE657E /* libsqlite3.0.dylib */; };
 		3C34FAEB174612FE00FE657E /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34FAEA174612FD00FE657E /* MainScreen.m */; };
+		3C935D1C174A0BAB00069156 /* large.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C935D1A174A0BAB00069156 /* large.png */; };
+		3C935D1D174A0BAB00069156 /* large1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C935D1B174A0BAB00069156 /* large1.png */; };
+		3C935D1F174A2BED00069156 /* background_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C935D1E174A2BED00069156 /* background_2.png */; };
+		3C935D23174A447D00069156 /* MainHomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C935D21174A447D00069156 /* MainHomeScreen.m */; };
+		3C935D24174A447D00069156 /* MainHomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C935D22174A447D00069156 /* MainHomeScreen.xib */; };
 		3C940931174211FE008DF206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C940930174211FE008DF206 /* UIKit.framework */; };
 		3C940933174211FE008DF206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C940932174211FE008DF206 /* Foundation.framework */; };
 		3C940935174211FE008DF206 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C940934174211FE008DF206 /* CoreGraphics.framework */; };
@@ -39,6 +44,12 @@
 		3C34FAE317460FD000FE657E /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		3C34FAE9174612FD00FE657E /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
 		3C34FAEA174612FD00FE657E /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		3C935D1A174A0BAB00069156 /* large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large.png; sourceTree = "<group>"; };
+		3C935D1B174A0BAB00069156 /* large1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large1.png; sourceTree = "<group>"; };
+		3C935D1E174A2BED00069156 /* background_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_2.png; sourceTree = "<group>"; };
+		3C935D20174A447D00069156 /* MainHomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainHomeScreen.h; sourceTree = "<group>"; };
+		3C935D21174A447D00069156 /* MainHomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainHomeScreen.m; sourceTree = "<group>"; };
+		3C935D22174A447D00069156 /* MainHomeScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainHomeScreen.xib; sourceTree = "<group>"; };
 		3C94092C174211FE008DF206 /* BongoSpellingAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BongoSpellingAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C940930174211FE008DF206 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3C940932174211FE008DF206 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +104,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C935D19174A0B8F00069156 /* TestImages */ = {
+			isa = PBXGroup;
+			children = (
+				3C935D1E174A2BED00069156 /* background_2.png */,
+				3C935D1A174A0BAB00069156 /* large.png */,
+				3C935D1B174A0BAB00069156 /* large1.png */,
+			);
+			name = TestImages;
+			sourceTree = "<group>";
+		};
 		3C940921174211FE008DF206 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +215,9 @@
 			children = (
 				3C34FAE9174612FD00FE657E /* MainScreen.h */,
 				3C34FAEA174612FD00FE657E /* MainScreen.m */,
+				3C935D20174A447D00069156 /* MainHomeScreen.h */,
+				3C935D21174A447D00069156 /* MainHomeScreen.m */,
+				3C935D22174A447D00069156 /* MainHomeScreen.xib */,
 			);
 			name = "Views and Controllers";
 			sourceTree = "<group>";
@@ -201,6 +225,7 @@
 		8E4918141746456C009806EF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3C935D19174A0B8F00069156 /* TestImages */,
 				8E4918151746456C009806EF /* Avatars */,
 				8E4918161746456C009806EF /* Images */,
 				8E4918171746456C009806EF /* Sounds */,
@@ -284,6 +309,10 @@
 				3C940943174211FE008DF206 /* Default.png in Resources */,
 				3C940945174211FE008DF206 /* Default@2x.png in Resources */,
 				3C940947174211FE008DF206 /* Default-568h@2x.png in Resources */,
+				3C935D1C174A0BAB00069156 /* large.png in Resources */,
+				3C935D1D174A0BAB00069156 /* large1.png in Resources */,
+				3C935D1F174A2BED00069156 /* background_2.png in Resources */,
+				3C935D24174A447D00069156 /* MainHomeScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +339,7 @@
 				3C34FAEB174612FE00FE657E /* MainScreen.m in Sources */,
 				8E49181317463A3C009806EF /* Settings.m in Sources */,
 				8E49181A1746462B009806EF /* MoreApps.m in Sources */,
+				3C935D23174A447D00069156 /* MainHomeScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

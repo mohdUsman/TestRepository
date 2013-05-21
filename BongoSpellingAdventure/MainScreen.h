@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface MainScreen : UIViewController
-
+{
+    UIView *mainScreenComboinedView;
+}
+@property(nonatomic , strong)UIView *mainScreenComboinedView;
 @end
